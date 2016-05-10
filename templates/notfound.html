@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <title>League Affinity</title>
+    <link rel="stylesheet" type="text/css" href="static/webapp.css">
+</head>
+
+<body>
+    <img class="bg" src="/static/fog_clouds_on_black.jpg">
+
+    <div class="wrapper">
+        <header>
+            <img class="head_img" src="/static/Top_banner_league-01.png">
+            <form action="/search" method="get">
+                <input class="search" type="text" name="summoner" placeholder="Find Summoner...">
+                <select class="dropdown" id="region" name="region">
+                    <option value="na">NA</option>
+                    <option value="euw">EUW</option>
+                    <option value="eune">EUNE</option>
+                    <option value="ru">RU</option>
+                    <option value="kr">KR</option>
+                    <option value="oce">OCE</option>
+                    <option value="tr">TR</option>
+                    <option value="br">BR</option>
+                    <option value="lan">LAN</option>
+                    <option value="las">LAS</option>
+                    <option value="jp">JP</option>
+                </select>
+                <input class="enter" type="submit" value="GO">
+            </form>
+        </header>
+
+        <div class="content">
+            <h1>{{info_head}}</h1>
+        </div>
+
+        <img class="foot_img" src="/static/Bottom_banner_league_affinity-01.png">
+    </div>
+</body>

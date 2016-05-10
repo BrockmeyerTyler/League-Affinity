@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <title>League Affinity</title>
+    <link rel="stylesheet" type="text/css" href="static/webapp.css">
+</head>
+
+<body>
+    <img class="bg" src="/static/fog_clouds_on_black.jpg">
+
+    <div class="wrapper">
+        <header>
+            <img class="head_img" src="/static/Top_banner_league-01.png">
+            <form action="/search" method="get">
+                <input class="search" type="text" name="summoner" placeholder="Find Summoner...">
+                <select class="dropdown" id="region" name="region">
+                    <option value="na">NA</option>
+                    <option value="euw">EUW</option>
+                    <option value="eune">EUNE</option>
+                    <option value="ru">RU</option>
+                    <option value="kr">KR</option>
+                    <option value="oce">OCE</option>
+                    <option value="tr">TR</option>
+                    <option value="br">BR</option>
+                    <option value="lan">LAN</option>
+                    <option value="las">LAS</option>
+                    <option value="jp">JP</option>
+                </select>
+                <input class="enter" type="submit" value="GO">
+            </form>
+        </header>
+
+        <div class="content">
+
+            <div class="card">
+                <img class="c_card" src="/static/summoner_card.png">
+                <div class="c_title">{{name}}</div>
+                <div class="c_level">Lvl {{class_lvl}}</div>
+                <div class="c_class">{{class}}</div>
+                <img class="c_classicon" src="{{class_icon}}">
+                <img class="c_icon" src="{{icon}}"> <!--summ icon-->
+                <div class="c_spec_in">Specialization:</div>
+                <div class="c_spec">{{spec}}</div>
+                <div class="c_s1 c_cost">{{sc1}}</div>
+                <div class="c_s2 c_cost">{{sc2}}</div>
+                <div class="c_s3 c_cost">{{sc3}}</div>
+                <img class="c_s1 c_costimg" src="{{sci1}}">
+                <img class="c_s2 c_costimg" src="{{sci2}}">
+                <img class="c_s3 c_costimg" src="{{sci3}}">
+                <div class="c_s1 c_sn1 c_name">{{sn1}}</div>
+                <div class="c_s2 c_sn2 c_name">{{sn2}}</div>
+                <div class="c_s3 c_sn3 c_name">{{sn3}}</div>
+                <div class="c_s1 c_desc">{{sd1}}</div>
+                <div class="c_s2 c_desc">{{sd2}}</div>
+                <div class="c_s3 c_desc">{{sd3}}</div>
+            </div>
+
+            <h2>{{info_head}}</h2>
+            <p>{{info}}</p>
+
+        </div>
+
+        <img class="foot_img" src="/static/Bottom_banner_league_affinity-01.png">
+    </div>
+</body>

@@ -1,0 +1,227 @@
+
+
+*
+{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.bg
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #404040;
+    z-index: -10;
+}
+.wrapper
+{
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+}
+
+
+
+header
+{
+    position: relative;
+}
+.head_img
+{
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+}
+h1
+{
+    margin: 0px;
+    margin-bottom: 35px;
+    position: relative;
+    color: black;
+    text-align: center;
+    font-size: 64px;
+    letter-spacing: 3px;
+}
+form *
+{
+    outline: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    bottom: 5%;
+    height: 60px;
+    color: #D0D0D0;
+    border-style: inset;
+    border-width: 2px;
+    background-color: rgba(100, 100, 100, 0.65);
+    border-color: #C0C0C0;
+    border-radius: 5px;
+}
+.search
+{
+    left: 20px;
+    width: 300px;
+    padding-left: 60px;
+    background: rgba(128, 128, 128, 0.45) url(search_icon.png) no-repeat;
+    background-size: 40px 40px;
+    background-position: 5% 40%;
+    border: 2px solid #E0E0E0;
+    border-radius: 25px;
+}
+.dropdown
+{
+    left: 350px;
+    border-style: outset;
+}
+.enter
+{
+    left: 475px;
+    border-style: outset;
+}
+form *:hover
+{
+    border-style: solid;
+    border-color: #7A7A7A;
+    background-color: rgba(70, 70, 70, 0.65);
+}
+
+
+
+.content
+{
+    position: relative;
+    width: 100%;
+    padding-bottom: 280px;
+}
+.content h1
+{
+    padding: 25px;
+    text-align: center;
+    font-size: 3.0em;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+
+}
+.content h2
+{
+    position: absolute;
+    top: 35px;
+    left: 700px;
+    padding: 10px;
+    min-width: 400px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 3.0em;
+}
+.content p
+{
+    position: absolute;
+    top: 125px;
+    left: 750px;
+    padding: 50px;
+    min-width: 400px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.75em;
+    line-height: 150%;
+}
+
+
+
+.card
+{
+    position: relative;
+    width: 640px;
+}
+.card *
+{
+    position: absolute;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.c_card{
+    position: relative;
+    padding: 2%;
+    width: 100%;
+}
+.c_title {
+    left: 9%;
+    top: 6.75%;
+    font-size: 250%;
+    white-space: nowrap;
+    width: 55%;
+    font-weight: bold;
+}
+.c_level {
+    right: 10%; top: 5%;
+    text-align: right;
+    font-size: 250%;
+}
+.c_class {
+    right: 15%; top: 9%;
+    text-align: right;
+    font-size: 175%;
+}
+.c_classicon {
+    right: 10%; top: 9.25%;
+    width: 4.5%;
+    height: 3.25%;
+}
+.c_icon {
+    left: 12%; top: 9%;
+    width: 76%; height: 48%;
+    z-index: -1;
+}
+.c_spec_in {
+    left: 11%; top: 54.5%;
+    font-size: 175%;
+}
+.c_spec {
+    right: 11%; top: 53.75%;
+    text-align: right;
+    font-size: 250%;
+}
+.c_s1 {top: 64.25%; color: white;}
+.c_s2 {top: 75.75%; color: white;}
+.c_s3 {top: 88.25%; color: gold;}
+.c_cost {
+    left: 8.5%;
+    font-weight: bold;
+    font-size: 150%;
+}
+.c_costimg {
+    left: 11.5%;
+    width: 4%;
+    height: 2.5%;
+}
+.c_sn1 {top: 60.5%;}
+.c_sn2 {top: 72%;}
+.c_sn3 {top: 84.5%;}
+.c_name {
+    left: 27.5%;
+    font-size: 175%;
+    font-weight: bold;
+}
+.c_desc {
+    width: 62.5%;
+    left: 27.5%;
+}
+
+
+.foot_img
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+
+}
