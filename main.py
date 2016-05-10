@@ -45,7 +45,9 @@ def search():
         else:
             subinfo = ""
         info['info'] = "This summoner has a main affinity of {main}. Their sub-affinity is {sub}. {maininfo} {subinfo}"\
-            .format(main=s_card.main_affinity, sub=s_card.sub_affinity, maininfo=maininfo, subinfo=subinfo)
+                       " They have {pts}k total points and a total level of {lvl}"\
+            .format(main=s_card.main_affinity, sub=s_card.sub_affinity, maininfo=maininfo, subinfo=subinfo,
+                    pts=int(s_card.points / 1000), lvl=s_card.level)
 
         card_fill = {
             'name': s_card.summoner.idealized,
