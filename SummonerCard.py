@@ -148,7 +148,7 @@ class SummonerCard:
                     print('Error getting tag: \"{aff}\", from champion: '.format(aff=aff) + name)
 
         # Calculate the level for each affinity, Calculate total level, Assign main_affinity
-        self.level = int(self.points / CHAMP_MASTERY_REQUIREMENT[4])
+        self.level = int(self.points / CHAMP_MASTERY_REQUIREMENT[4]) + 1
         highest = 0
         for aff_name, aff_data in self.affinities.items():
             aff_data['level'] = int(aff_data['points'] / CHAMP_MASTERY_REQUIREMENT[4])
