@@ -18,7 +18,7 @@ All will be explained in detail further down.
 
 # TO LAUNCH LOCALLY
 This is NOT required, as there is a live site up right now.  
-That being said, it is very simple. All you have to do is (after downloading all of the files obviously) set the API_KEY constant to your own API key and run main_web.py using the Python 3 console. Then simply navigate to localhost:5000 in your web browser to see the site. And you're done! To turn off the server, press CTRL+C in your Python 3 console.
+That being said, it is very simple. All you have to do is (after downloading all of the files obviously) set the API_KEY constant in main.py to your own API key and run main.py using the Python 3 console. Then simply navigate to localhost:5000 in your web browser to see the site. And you're done! To turn off the server, press CTRL+C in your Python 3 console.
 
 
 # THE DETAILS
