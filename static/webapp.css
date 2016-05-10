@@ -135,6 +135,16 @@ form *:hover
     font-size: 1.75em;
     line-height: 150%;
 }
+.descrip
+{
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font-size: 1.75em;
+    line-height: 150%;
+    text-align: center;
+    width: 75%;
+}
 
 
 
@@ -223,5 +233,4 @@ form *:hover
     bottom: 0;
     left: 0;
     max-width: 100%;
-
 }
