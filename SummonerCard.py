@@ -167,13 +167,3 @@ class SummonerCard:
                     self.sub_affinity = aff_name
 
         return True
-
-    def get_affinity(self, rank):
-        """
-        Gets the affinity with the 'rank'th highest number of points
-        :return: The affinity name.
-        """
-
-        aff_list = list(self.affinities.keys())
-        for name in self.affinities.items():
-            aff_list.append()
