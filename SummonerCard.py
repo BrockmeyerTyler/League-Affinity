@@ -151,7 +151,7 @@ class SummonerCard:
         self.level = int(self.points / CHAMP_MASTERY_REQUIREMENT[4]) + 1
         highest = 0
         for aff_name, aff_data in self.affinities.items():
-            aff_data['level'] = int(aff_data['points'] / CHAMP_MASTERY_REQUIREMENT[4])
+            aff_data['level'] = int(aff_data['points'] / CHAMP_MASTERY_REQUIREMENT[4]) + 1
             if aff_data['points'] > highest:
                 highest = aff_data['points']
                 self.main_affinity = aff_name
@@ -160,7 +160,7 @@ class SummonerCard:
         highest = 0
         if self.main_affinity is not "None":
             for aff_name, aff_data in self.affinities.items():
-                aff_data['level'] = int(aff_data['points'] / CHAMP_MASTERY_REQUIREMENT[4])
+                aff_data['level'] = int(aff_data['points'] / CHAMP_MASTERY_REQUIREMENT[4]) + 1
                 if aff_data['points'] > highest and aff_name is not self.main_affinity and\
                         aff_data['points'] > self.affinities[self.main_affinity]['points'] * SPEC_RATIO:
                     highest = aff_data['points']
