@@ -1,3 +1,5 @@
+Disclaimer: This project is very old in terms of my coding ability. Very, very old.
+
 # League-Affinity
 My submission to Riot Games' API Contest for April 2016. It uses Champion Mastery to produce a playing card based around that summoner's particular play style and interests. Built with Python 3 using the requests and Flask modules, and hosted by Heroku.  
 ACTIVE SITE: https://league-affinity.herokuapp.com/  
